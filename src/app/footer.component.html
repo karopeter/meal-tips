@@ -1,0 +1,59 @@
+<footer class="footer-page bg-success">
+    <div class="container-footer">
+      <p class="long-footer">
+       Ready to try Healthy Meal Tips out
+      </p>
+      <div class="page-button" *ngIf="!userIsAuthenticated">
+       <a [routerLink]="['/signup']" class="btn btn-full" type="button">Get Started Today</a>
+      </div>
+    </div>
+ </footer>
+ <footer class="footer-page bg-dark">
+
+    <section class="container">
+        <section class="row">
+          <div class="col-4">
+           <a [routerLink]="['/blog-item']" class="city">Health Recipes</a>
+          </div>
+          <div class="col-4">
+            <a [routerLink]="['/blogs']" class="city">Meal Plans</a>
+          </div>
+          <div class="col-4">
+           <a href="#" class="city">Health</a>
+          </div>
+        </section>
+        <section class="row">
+         <div class="col-4">
+           <a href="#" class="city">Contact Us</a>
+         </div>
+         <div class="col-4">
+          <a href="#" class="city">Article</a>
+         </div>
+         <div class="col-4">
+           <a href="#" class="city">Tips for Entreprenuers</a>
+         </div>
+        </section>
+        <section class="row">
+         <div class="col-4">
+           <a href="#" class="city">Workout Tips</a>
+         </div>
+         <div class="col-4">
+          <a href="#" class="city">Login</a>
+         </div>
+         <div class="col">
+          <a href="#" class="city">Social Media</a>
+         </div>
+        </section>
+        <section class="row">
+          <div class="col-4">
+            <a href="#" class="city">Content Marketing</a>
+          </div>
+          <div class="col-4" *ngIf="userIsAuthenticated">
+            <a [routerLink]="['/posts']" class="city">Post</a>
+          </div>
+          <div class="col-4">
+            <a href="#" class="city">Vistors Retention</a>
+          </div>
+        </section>
+     </section>
+ </footer>

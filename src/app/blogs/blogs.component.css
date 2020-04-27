@@ -1,0 +1,210 @@
+.header__first,
+.long__copy{
+    text-align: left;
+    color: #000;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.header__first{
+  margin-top: 40px;
+}
+
+.img-panel{
+  width: 100%;  
+}
+
+.threeblocks-light {
+    padding-left: 0;
+    padding: 20px;
+    height: 400px;
+    background-color: #d3dde6;
+    text-align: center;
+    font-size: 14px;
+    color: #353535;
+}
+
+.threeblocks-dark {
+    padding-left: 0;
+    padding: 20px;
+    height: 400px;
+    background-color: #404a53;
+    text-align: center;
+    font-size: 14px;
+    color: #f5f6f6;
+}
+
+.threeblocks-light button, .threeblocks-dark button {
+    background: #353535;
+    color: #fff;
+    border: 1px solid #353535;
+    font-size: 16px;
+    padding: 5px 15px;
+    top: 2px;
+    text-transform: uppercase;
+}
+
+.blog-catalogo {
+    margin-top: 30px;
+}
+
+button {
+    border-radius: 0;
+    overflow: visible;
+}
+
+button, a {
+    font-weight: 600;
+}
+
+button, input, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+.threeblocks-newsletter-form, .invitation-form {
+    margin-bottom: 20px;
+}
+
+
+.threeblocks-dark button {
+    border: 1px solid #dd4a5f;
+    background: #dd4a5f;
+    color: #fff;
+}
+
+.threeblocks-light button, .threeblocks-dark button {
+    background: #353535;
+    color: #fff;
+    border: 1px solid #353535;
+    font-size: 16px;
+    padding: 5px 15px;
+    top: 2px;
+    text-transform: uppercase;
+}
+
+.threeblocks-newsletter-button {
+    height: 35px;
+    position: relative;
+    border: 1px solid #dd4a5f;
+    background: #dd4a5f;
+}
+
+.meal__star{
+  margin-top: 20px;  
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.long__page{
+  margin-top: 30px;
+  font-size: 15px;
+}
+
+
+/*
+**
+*/
+
+.infoboxes {
+    position: relative;
+    background-color: white;
+    margin-top: 30px;
+}
+
+.infoboxes .row .infobox-content {
+    border-right: 1px solid #cacaca;
+    text-align: center;
+}
+
+.infobox-content {
+    line-height: 18px;
+    font-size: 12px;
+    color: #353535;
+    min-height: 120px;
+}
+
+.infobox-content h5 {
+    color: green;
+    font-size: 16px;
+    font-weight: 600;
+    vertical-align: middle;
+    font-family: 'Merriweather',sans-serif;
+}
+
+.page__title{
+  line-height: 23px;
+}
+
+
+/*
+ **
+*/
+
+.policy-item {
+    margin: 20px 0 0;
+    padding: 55px 0;
+}
+
+.m0 {
+    margin: 0;
+}
+
+.leggi-piu-box {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.leggi-piu-box .leggi-piu-content {
+    font-weight: 400;
+    color: #353535;
+    font-size: 14px;
+    position: relative;
+    margin: auto;
+    line-height: 24px;
+    text-align: justify;
+}
+
+.leggi-piu-content--hidden {
+    overflow: hidden;
+    position: relative;
+    max-height: 94px;
+    text-align: justify;
+    margin-right: -1em;
+    padding-right: 1em;
+}
+
+.leggi-piu-box h2 {
+    font-weight: 300;
+    text-transform: none;
+    font-size: 24px;
+    background: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -ms-font-smoothing: antialiased;
+    line-height: 42px;
+    padding: 0;
+}
+
+.long__light{
+    color: #353535;
+    font-size: 13px;
+    line-height: 22px;
+    margin: 0 0 10px;
+    text-align: center;
+}
+
+.leggi-piu-link {
+    display: block;
+    color: #353535;
+    text-transform: uppercase;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+}

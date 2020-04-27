@@ -1,0 +1,91 @@
+.footer-page{
+    height: 200px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .footer-page .container-footer{
+      display: block;
+      text-align: center;
+  }
+  
+  .footer-page .container-footer .long-footer{
+      padding-bottom: 30px;
+    text-align: center;
+    
+   }
+  
+   .long-footer{
+      margin-left: 30px;
+      font-size: 25px;
+      font-weight: 400;
+   }
+  
+  .footer-page .container-footer{
+      flex: 1 100%;
+      color: #fff;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      max-width: 1140px;
+  }
+  
+  .footer-page .container-footer .btn btn-full{
+      margin-bottom: 0;
+      width: 300px;
+  }
+  
+  
+  .btn:link, 
+  .btn:visited, 
+  input[type=submit]{
+      display: inline-block;
+      padding: 10px 30px;
+      font-weight: 300;
+      text-decoration: none;
+      border-radius: 200px;
+      transition: background-color 0.2s, border 0.2s, color 0.2s;
+      transition: background-color 0.2s, border 0.2s, color 0.2s;
+      
+  }
+  
+  .btn-full:link,
+  .btn-full:visited, 
+  input[type=submit]{
+    background-color: green;
+    border: 1px solid green;
+    color: #fff;
+    margin-right: 15px;
+  }
+  
+  .btn:hover,
+  .btn:active,
+  input[type=submit]:hover
+  input[type=submit]:active{
+    background-color: #1f212e;
+  }
+  
+  .btn-full:hover,
+  .btn-full:active {
+    border: 1px solid #212432;
+  }
+
+  .city{
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 20px;
+    color: #f0efef;
+    text-align: left;
+    margin-left: 20px;
+    margin-bottom: 30px;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+   }
+   
+   .city:hover,
+   .city:active{
+       background-color: green;
+   }
+  

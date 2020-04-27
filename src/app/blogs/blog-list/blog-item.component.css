@@ -1,0 +1,54 @@
+.demi{
+    color: green;
+    font-weight: 400;
+    text-decoration: none;
+  }
+
+.btn:link, 
+.btn:visited, 
+input[type=submit]{
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    margin-top: 100px;
+    border: 20px;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+    
+}
+
+.btn-ghost:link,
+.btn-ghost:visited, 
+input[type=submit]{
+  background-color: green;
+  border: 5px solid green;
+  color: #fff;
+  margin-right: 15px;
+}
+
+.btn:hover,
+.btn:active,
+input[type=submit]:hover
+input[type=submit]:active{
+  background-color:  green;
+}
+
+.btn-ghost:hover,
+.btn-ghost:active {
+  border: 1px solid green;
+}
+
+.no-pad{
+  padding-bottom: 0;
+  font-size: 15px;
+  margin-top: 40px;
+}
+
+.value{
+  font-weight: 600;
+  margin-top: 40px;
+  color:  green;
+}
+
+  

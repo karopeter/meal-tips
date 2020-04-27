@@ -1,0 +1,39 @@
+<div class="myRow bg-dark">
+    <div class="row">
+      <div class="col-4">
+        <p class="header_title">FUTURE HEALTH</p>
+      </div>
+      <div class="col-4">
+        <p class="header_title">WORKOUT LENGTH</p>
+      </div>
+      <div class="col-4">
+       <p class="header_title">MEAL TIPS</p>
+      </div>
+    </div>
+  </div>
+
+ <section class="container">
+   <section class="row">
+      <div class="col-4" *ngIf="userIsAuthenticated">
+        <nav class="navbar navbar-dark-bg-dark" style="margin-top:20px;">
+          <form class="form-inline">
+            <input class="form-control mr-sm-2" type="sign up" placeholder="Find Post" aria-label="Find Post">
+            <a [routerLink]="['/search']"><button class="btn btn-outline-dark my-2 my-sm-0" type="submit">Search</button></a>
+          </form>
+        </nav>
+      </div>
+      <div class="col-4">
+        <div class="row">
+            <a class="text-success"  [routerLink]="['/blogs']" style="text-align:center; font-size:30px; margin-top:20px; font-weight:300%;">Health Meal Tips</a>
+          </div>
+      </div>
+      <div class="col-4" *ngIf="!userIsAuthenticated">
+        <div class="row">
+         <a class="text-dark" [routerLink]="['/login']" style="text-align:center; font-size:20px; margin-top:30px; font-weight:300%;">Login</a>
+        </div>
+      </div> 
+      <h3 class="display-4 text-muted" *ngIf="userIsAuthenticated">
+        <button  (click)="onLogout()">Logout</button>
+      </h3>
+   </section>
+ </section>
