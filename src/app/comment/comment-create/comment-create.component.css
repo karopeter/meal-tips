@@ -1,0 +1,147 @@
+#commentspost {
+    list-style-type: none;
+}
+
+.sectiondivide {
+  border-top: double #979797;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  min-height: .24rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  clear: both;
+}
+
+.comment_box {
+  font-weight: 100;
+  text-align: center;
+  font-size: 1.7rem;
+  line-height: 1.6rem;
+  margin-bottom: 2rem;
+}
+
+small {
+  font-size: 80%;
+  font-weight: 400;
+}
+
+form {
+  display: block;
+  margin-top: 0em;
+}
+
+.form-group {
+  margin: 0 2rem 2rem;
+  margin-bottom: 1rem;
+}
+
+textarea#comment.form-control {
+  min-height: 7rem;
+}
+
+#commentspost input, textarea#comment.form-control {
+  background-color: #F5F5F5;
+  border-color: #E8E8E8;
+  border-radius: .2rem;
+  font-size: .8rem;
+}
+
+.form-control {
+  width: 100%;
+  padding: .5rem .75rem;
+  font-size: 1rem;
+  line-height: 1.25;
+  color: #495057;
+  background-color: #fff;
+  background-image: none;
+  background-clip: padding-box;
+  border: 1px solid rgba(0,0,0,.15);
+  border-radius: .25rem;
+  transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+.form-control, .form-control-file, .form-control-range, .form-text {
+  display: block;
+}
+
+.form-control, .form-control-file, .form-control-plaintext, .form-control-range {
+  display: block;
+  width: 100%;
+}
+
+textarea {
+  overflow: auto;
+  resize: vertical;
+}
+
+button, input, optgroup, select, textarea {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+
+#commentspost input, textarea#comment.form-control {
+  background-color: #F5F5F5;
+  border-color: #E8E8E8;
+  border-radius: .2rem;
+  font-size: .8rem;
+}
+
+div.form-group.commentemail, div.form-group.commentauthor, div.form-group.commentpassword {
+  margin-right: 8rem;
+}
+
+
+.maincontent p {
+    margin: 1.4rem 1.8rem;
+    font-size: .96rem;
+    line-height: 1.7rem;
+    letter-spacing: .015rem;
+}
+
+input[type=checkbox], input[type=radio] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+input[type="checkbox"], input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+#commentform .comment-form-wprm-rating {
+  margin-left: 2.8rem;
+  padding-bottom: 2rem;
+}
+
+#commentform .wprm-rating {
+  float: left;
+  padding-top: 4px;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: .8rem;
+  padding-right: 12px;
+  color: #666;
+}
+
+#commentform .wprm-rating-stars {
+  float: left;
+}
+
+.comment-form-wprm-rating .wprm-rating-star {
+  cursor: pointer;
+}
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+.wprm-rating-star svg {
+  vertical-align: middle;
+  width: 16px;
+  height: 16px;
+  margin: 0;
+}

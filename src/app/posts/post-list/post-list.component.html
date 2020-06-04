@@ -9,7 +9,7 @@
     </div>
     <p>{{ post.content }}</p>
     <mat-action-row *ngIf="userIsAuthenticated && userId === post.creator">
-      <a mat-button color="primary" [routerLink]="['/comment', post.id]">COMMENT</a>
+      <a mat-button color="primary" [routerLink]="['/comment', comment.id]">COMMENT</a>
       <button mat-button color="warn" (click)="onDelete(post.id)">DELETE</button>
     </mat-action-row>
  </mat-expansion-panel>

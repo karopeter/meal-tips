@@ -41,12 +41,12 @@
        <p class="long__page">
         {{vegan}}
        </p>
-       <a href="#"><button id="request-catalogue-button" name="request-catalogue-button" class="blog-catalogo">Find out more</button></a>
+       <a [routerLink]="['/vegetarian']"><button id="request-catalogue-button" name="request-catalogue-button" class="blog-catalogo">Find out more</button></a>
      </div>
      <div class="col-md-4 col-sm-12 threeblocks-dark">
          <h5 class="meal__star">Sign up for our newsletter</h5>
          <div class="threeblocks-newsletter-form">
-            <button id="register-newsletter-button" name="register-newsletter-button" class="threeblocks-newsletter-button" type="button"><a href="#" style="color:#fff;">Sign up</a></button>
+            <button id="register-newsletter-button" name="register-newsletter-button" class="threeblocks-newsletter-button" type="button"><a [routerLink]="['/signup']" style="color:#fff;">Sign up</a></button>
          </div>
          <p class="long__page">
           {{diet}}

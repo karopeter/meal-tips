@@ -1,5 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { Blogs } from "../blogs";
+import { Blogs } from '../blogs';
 
 @Component({
   selector: 'app-blog-item',
@@ -7,7 +7,7 @@ import { Blogs } from "../blogs";
   styleUrls: ['./blog-item.component.css']
 })
 export class BlogItemComponent implements OnInit {
-  @Input() blogs: Blogs
+  @Input() blogs: Blogs;
   blogId: StringConstructor;
 
   constructor() { }

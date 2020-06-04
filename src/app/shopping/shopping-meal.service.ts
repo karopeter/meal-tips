@@ -1,4 +1,4 @@
-import { Blogs } from "../blogs/blogs";
+import { Blogs } from '../blogs/blogs';
 
 export class ShoppingMealService {
   private meals: Blogs[] = [];

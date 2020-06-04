@@ -29,6 +29,8 @@ import { SignupComponent } from './auth/signup/signup.component';
 import { LoginComponent } from './auth/login/login.component';
 import { AuthInterceptor } from './auth/auth-interceptor';
 import { AuthGuard } from './auth/auth.guard';
+import { CommentCreateComponent } from './comment/comment-create/comment-create.component';
+import { CommentListComponent } from './comment/comment-list/comment-list.component';
 
 @NgModule({
   declarations: [
@@ -46,6 +48,8 @@ import { AuthGuard } from './auth/auth.guard';
     PostListComponent,
     SignupComponent,
     LoginComponent,
+    CommentCreateComponent,
+    CommentListComponent,
   ],
   imports: [
    BrowserModule,
@@ -59,9 +63,10 @@ import { AuthGuard } from './auth/auth.guard';
       { path: 'shopping-meal', component: ShoppingMealComponent},
       { path: 'posts', component: PostCreateComponent, canActivate: [AuthGuard] },
       { path: 'search', component: PostListComponent },
-      { path: 'comment/:postId', component: PostCreateComponent, canActivate: [AuthGuard] },
+      { path: 'comments/:postId', component: CommentCreateComponent, canActivate: [AuthGuard] },
       { path: 'signup', component: SignupComponent },
-      { path: 'login', component: LoginComponent }
+      { path: 'login', component: LoginComponent },
+      { path: 'vegetarian', component: BlogVegetarianComponent }
     ]),
     BrowserAnimationsModule,
     MatInputModule,

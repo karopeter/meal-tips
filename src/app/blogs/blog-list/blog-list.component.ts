@@ -1,5 +1,5 @@
 import { Component, OnInit, Output, EventEmitter } from '@angular/core';
-import { Blogs } from "../blogs";
+import { Blogs } from '../blogs';
 import { BlogsService } from '../blogs.service';
 
 @Component({

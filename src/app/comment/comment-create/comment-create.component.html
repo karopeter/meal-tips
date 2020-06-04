@@ -1,0 +1,75 @@
+<div id="commentspost">
+  <div class="sectiondivide"></div>
+  <h4 class="comment_box">Post Your Comment</h4>
+  <div id="respond" class="comment-respond">
+    <h3 id="reply-title" class="comment-reply-title">
+      <small>
+        <a rel="nofollow" id="cancel-comment-reply-link" href="#" style="display:none;">Cancel Reply</a>
+      </small>
+    </h3>
+    <form (submit)="onAddComment(commentForm)" #commentForm="ngForm" action="#" method="post" id="commentform" class="comment-form" novalidate>
+       <div class="form-group">
+         <textarea placeholder="YOUR COMMENT" class="form-control" id="comment" name="comment" ngModel cols="45" rows="8" aria-required="true" #comment="ngModel"></textarea>
+       </div>
+       <div class="form-group commentauthor">
+         <input id="author" name="author" ngModel type="text" value size="30" maxlength="245" placeholder="NAME" class="postinput form-control" #name="ngModel">
+       </div>
+       <div class="form-group commentemail">
+          <input id="email" name="email" ngModel type="text" value size="30" maxlength="100" aria-describedby="email-notes" placeholder="EMAIL (not shown)" class="postinput form-control" #email="ngModel">
+       </div>
+       <div class="form-group commentresponse">
+          <input id="response" name="response" ngModel type="text" value size="30" maxlength="200" placeholder="RESPONSE" class="postinput form-control" #response="ngModel">
+       </div>
+       <p class="comment-form-cookies-consent">
+         <input id="wp-comment-cookies-consent" name="wp-comment-cookies-consent" type="checkbox" value="yes" style="margin-left: 20px;">
+         <label for="wp-comment-cookies-consent" style="margin-left: 20px;">Save my name, email, and response in this browser for the next time I comment.</label>
+       </p>
+       <div class="comment-form-wprm-rating" data-color="#343434">
+         <div class="wprm-rating">Recipe Rating</div>
+         <div class="wprm-rating-stars">
+            <span class="wprm-rating-stars" data-rating="1">
+              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px" viewBox="0 0 24 24">
+                <g transform="translate(0, 0)">
+                   <polygon fill="none" stroke="#343434" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" points="12,2.6 15,9 21.4,9 16.7,13.9 18.6,21.4 12,17.6 5.4,21.4 7.3,13.9 2.6,9 9,9" stoke-linejoin="miter"></polygon>
+                </g>
+              </svg>
+            </span>
+            <span class="wprm-rating-stars" data-rating="2">
+              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px" viewBox="0 0 24 24">
+                <g transform="translate(0, 0)">
+                   <polygon fill="none" stroke="#343434" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" points="12,2.6 15,9 21.4,9 16.7,13.9 18.6,21.4 12,17.6 5.4,21.4 7.3,13.9 2.6,9 9,9" stoke-linejoin="miter"></polygon>
+                </g>
+              </svg>
+            </span>
+            <span class="wprm-rating-stars" data-rating="3">
+              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px" viewBox="0 0 24 24">
+                <g transform="translate(0, 0)">
+                   <polygon fill="none" stroke="#343434" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" points="12,2.6 15,9 21.4,9 16.7,13.9 18.6,21.4 12,17.6 5.4,21.4 7.3,13.9 2.6,9 9,9" stoke-linejoin="miter"></polygon>
+                </g>
+              </svg>
+            </span>
+            <span class="wprm-rating-stars" data-rating="4">
+              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px" viewBox="0 0 24 24">
+                <g transform="translate(0, 0)">
+                   <polygon fill="none" stroke="#343434" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" points="12,2.6 15,9 21.4,9 16.7,13.9 18.6,21.4 12,17.6 5.4,21.4 7.3,13.9 2.6,9 9,9" stoke-linejoin="miter"></polygon>
+                </g>
+              </svg>
+            </span>
+            <span class="wprm-rating-stars" data-rating="5">
+              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px" viewBox="0 0 24 24">
+                <g transform="translate(0, 0)">
+                   <polygon fill="none" stroke="#343434" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" points="12,2.6 15,9 21.4,9 16.7,13.9 18.6,21.4 12,17.6 5.4,21.4 7.3,13.9 2.6,9 9,9" stoke-linejoin="miter"></polygon>
+                </g>
+              </svg>
+            </span>
+         </div>
+         <input id="wprm-comment-rating" name="wprm-comment-rating" type="hidden" value="0">
+       </div>
+       <p class="form-submit">
+        <input name="submit" type="submit" id="commentsubmit" class="submit btn btn-success" value="Comment"  style="margin-left: 20px; color: #000;">
+        <input type="hidden" name="comment_post_ID" value="9204" id="comment_post_ID">
+        <input type="hidden" name="comment_parent" id="comment_parent" value="0">
+       </p>
+    </form>
+  </div>
+</div>
